@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih Bahasa Pemrograman yang anda suka" />
+
+    <CheckBox
+        android:id="@+id/cbJava"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Java" />
+
+    <CheckBox
+        android:id="@+id/cbPhp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Php" />
+
+    <CheckBox
+        android:id="@+id/cbCPlus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C/C++" />
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:text="Ok" 
+        android:onClick="KlikHasil" />
+
+    <TextView
+        android:id="@+id/tvHasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hasil" />
+
+</LinearLayout>
